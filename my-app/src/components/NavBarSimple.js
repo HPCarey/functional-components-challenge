@@ -12,7 +12,7 @@ class NavBarSimple extends React.Component{
 
     handleclick = () => {
         this.setState((prevState) => ({
-            message: prevState.message === "Hello, Guest!" ? "Welcome back, user!" : "Hello, guest!",
+            message: prevState.message === "Hello, Guest!" ? "Welcome back, user!" : "Hello, Guest!",
             buttonText: prevState.buttonText === "Log out" ? "Log in" : "Log out",
         }), () => console.log(this.state.message))
     }
