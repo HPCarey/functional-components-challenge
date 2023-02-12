@@ -28,7 +28,7 @@
 
 
 
-// creates and exports a class component
+// rce : creates and exports a class component
 // import React, { Component } from 'react'
 
 // export class ES7Snippets extends Component {
