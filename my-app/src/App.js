@@ -4,6 +4,7 @@ import NavBarSimple from "./components/NavBarSimple";
 import NavBarForm from "./components/NavBarForm";
 import NavBarChild from './components/NavBarChild';
 import Contents from './components/Contents';
+import ContentHooks from './components/ContentHooks';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <div className={css.App}>
       <Sidebar />
       <NavBarForm />
-      <Contents />
+      {/* <Contents /> */}
+      <ContentHooks />
       {/* <NavBarSimple /> */}
     </div>
   );
